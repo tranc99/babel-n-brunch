@@ -19,3 +19,8 @@ console.log("my name is ", name);
 
 const mod4 = require("module4");
 console.log("Mod4 information: I am ", mod4.name, " and I like ", mod4.dessert, " and I can add 5 and 5 to get ", mod4.adder(5, 5));
+
+import Calculator from "./calculator";
+window.NUMBERS = Calculator.add(12, 20);
+import {square} from "calculator";
+alert("squaring 5 gives " + square(5));
