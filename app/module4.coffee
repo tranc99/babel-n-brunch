@@ -3,8 +3,12 @@ console.log("haha this is module 4 Coffeescript");
   a  +  b
 name = "Tendai Mutunhire"
 
+subtract = (a, b) ->
+  a - b
+
 module.exports = {
   name1: name,
   dessert: "icecream",
-  adder: add
+  adder: add,
+  subtract: subtract
 }
